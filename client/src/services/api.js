@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/leads",
+  baseURL: "https://lead-management-6676.onrender.com/api/leads",
 });
 
 export default API;
